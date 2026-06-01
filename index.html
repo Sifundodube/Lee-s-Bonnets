@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lee's Designs — Luxury Satin Bonnets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PARTICLES CANVAS -->
+  <canvas id="particles"></canvas>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">Lee's <em>Designs</em></a>
+      <ul class="nav-links">
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#custom">Custom</a></li>
+        <li><a href="#order" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#collection" class="mobile-link">Collection</a>
+    <a href="#pricing" class="mobile-link">Pricing</a>
+    <a href="#custom" class="mobile-link">Custom Orders</a>
+    <a href="#order" class="mobile-link cta">Order Now</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="gold-line top-line"></div>
+    <div class="gold-line bottom-line"></div>
+
+    <div class="hero-content">
+      <div class="tagline-wrap">
+        <span class="tagline">✦ Sleep Pretty · Wake Flawless ✦</span>
+      </div>
+      <h1 class="hero-title">SATIN<br /><em>BONNETS</em></h1>
+      <p class="hero-sub">
+        Handcrafted luxury satin bonnets — reversible, custom-embroidered,
+        and made to protect your crown. Based in Alexandra Ext 7 · Open 24/7
+      </p>
+      <div class="hero-btns">
+        <a href="#order" class="btn btn-gold">Order on WhatsApp</a>
+        <a href="#collection" class="btn btn-ghost">View Collection</a>
+      </div>
+      <div class="hero-prices">
+        <div class="price-pill">Reversible <strong>R120</strong></div>
+        <div class="price-divider">|</div>
+        <div class="price-pill">Non-Reversible <strong>R100</strong></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-ring ring-outer"></div>
+      <div class="hero-ring ring-inner"></div>
+      <img src="images/bonnet-flyer.jpeg" alt="Luxury Satin Bonnet" class="hero-img" />
+    </div>
+  </section>
+
+  <!-- FEATURES BAR -->
+  <div class="features-bar">
+    <div class="features-inner">
+      <div class="feat">✦ <span>100% Satin Fabric</span></div>
+      <div class="feat">✦ <span>Reversible Designs</span></div>
+      <div class="feat">✦ <span>Custom Embroidery</span></div>
+      <div class="feat">✦ <span>Family & Bulk Orders</span></div>
+      <div class="feat">✦ <span>Open 24 Hours</span></div>
+    </div>
+  </div>
+
+  <!-- COLLECTION -->
+  <section class="collection" id="collection">
+    <div class="section-head">
+      <span class="eyebrow">Our Range</span>
+      <h2>The Collection</h2>
+      <div class="gold-rule"></div>
+      <p>Every bonnet is lovingly crafted to keep your hair moisturised, frizz-free, and looking gorgeous — night after night.</p>
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product-card" data-delay="0">
+        <div class="card-img-wrap">
+          <img src="images/bonnet-fuchsia.jpeg" alt="Fuchsia & Baby Pink Bonnet" loading="lazy" />
+          <div class="card-shine"></div>
+          <div class="card-overlay">
+            <a href="#order" class="overlay-order">Order This ✦</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Reversible · R120</span>
+          <h3>Fuchsia & Baby Pink</h3>
+          <p>Bold fuchsia on one side, soft baby pink on the other. Long tie straps for a perfect, secure fit.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-delay="100">
+        <div class="card-img-wrap">
+          <img src="images/bonnet-pink.jpeg" alt="Baby Pink & Fuchsia Bonnet" loading="lazy" />
+          <div class="card-shine"></div>
+          <div class="card-overlay">
+            <a href="#order" class="overlay-order">Order This ✦</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-tag">Reversible · R120</span>
+          <h3>Baby Pink & Fuchsia</h3>
+          <p>Dreamy baby pink shell with rich fuchsia lining. Silky-smooth and breathable for every night.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-delay="200">
+        <div class="card-img-wrap">
+          <img src="images/bonnet-red.jpeg" alt="Custom Embroidered Red Bonnet" loading="lazy" />
+          <div class="card-shine"></div>
+          <div class="card-overlay">
+            <a href="#order" class="overlay-order">Order This ✦</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-tag gold-tag">Custom · Your Price</span>
+          <h3>Custom Embroidered</h3>
+          <p>Your name, her name, a title — embroidered in elegant thread. The perfect personalised gift.</p>
+        </div>
+      </div>
+
+      <div class="product-card" data-delay="300">
+        <div class="card-img-wrap">
+          <img src="images/bonnet-black.jpeg" alt="Black & Hot Pink Family Set" loading="lazy" />
+          <div class="card-shine"></div>
+          <div class="card-overlay">
+            <a href="#order" class="overlay-order">Order This ✦</a>
+          </div>
+        </div>
+        <div class="card-body">
+          <span class="card-tag dark-tag">Family Set · Bulk Welcome</span>
+          <h3>Black & Hot Pink Set</h3>
+          <p>Sleek black with hot pink lining. Order as a personalised family set — each bonnet with a unique name.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="pricing-glow"></div>
+    <div class="section-head light">
+      <span class="eyebrow light">Simple Pricing</span>
+      <h2>Choose Your Style</h2>
+      <div class="gold-rule"></div>
+    </div>
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <div class="pc-icon">♦</div>
+        <h3>Non-Reversible</h3>
+        <div class="pc-price">R100</div>
+        <ul>
+          <li>Single colour design</li>
+          <li>100% satin fabric</li>
+          <li>Long tie straps</li>
+          <li>Multiple colour options</li>
+        </ul>
+        <a href="#order" class="btn btn-ghost-sm">Order Now</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pc-badge">Most Popular</div>
+        <div class="pc-icon">♛</div>
+        <h3>Reversible</h3>
+        <div class="pc-price">R120</div>
+        <ul>
+          <li>Two colours in one bonnet</li>
+          <li>Luxury double-layer satin</li>
+          <li>Long tie straps</li>
+          <li>Mix & match colours</li>
+          <li>+ Add embroidery</li>
+        </ul>
+        <a href="#order" class="btn btn-gold-sm">Order Now</a>
+      </div>
+      <div class="pricing-card">
+        <div class="pc-icon">✿</div>
+        <h3>Custom / Gift</h3>
+        <div class="pc-price">Ask Us</div>
+        <ul>
+          <li>Name embroidery included</li>
+          <li>Any colour combination</li>
+          <li>Family & bulk orders</li>
+          <li>Special occasions & gifts</li>
+        </ul>
+        <a href="#order" class="btn btn-ghost-sm">Enquire Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM BANNER -->
+  <section class="custom-banner" id="custom">
+    <div class="banner-inner">
+      <div class="banner-text">
+        <span class="eyebrow">Personalise It</span>
+        <h2>Make It <em>Yours</em></h2>
+        <p>From "BOSS-LADY" to your daughter's name — we embroider any text onto your bonnet. Perfect for birthdays, Mother's Day, or just treating yourself.</p>
+        <a href="#order" class="btn btn-gold">Start a Custom Order</a>
+      </div>
+      <div class="banner-img">
+        <img src="images/bonnet-flyer.jpeg" alt="Custom Embroidered Bonnet" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER / WHATSAPP FORM -->
+  <section class="order-section" id="order">
+    <div class="order-glow"></div>
+    <div class="section-head light">
+      <span class="eyebrow light">Get Yours Today</span>
+      <h2>Place Your Order</h2>
+      <div class="gold-rule"></div>
+      <p>Fill in your details below and we'll send you a WhatsApp message to confirm your order.</p>
+    </div>
+
+    <div class="order-wrap">
+      <form class="order-form" id="orderForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name *</label>
+            <input type="text" id="fname" placeholder="e.g. Thandi" required />
+          </div>
+          <div class="form-group">
+            <label>Your Phone Number *</label>
+            <input type="tel" id="fphone" placeholder="e.g. 0821234567" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Bonnet Type *</label>
+            <select id="ftype" required>
+              <option value="">— Select —</option>
+              <option value="Reversible (R120)">Reversible — R120</option>
+              <option value="Non-Reversible (R100)">Non-Reversible — R100</option>
+              <option value="Custom / Embroidered">Custom / Embroidered — Ask Price</option>
+              <option value="Family Set">Family Set — Ask Price</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Colour Choice *</label>
+            <input type="text" id="fcolour" placeholder="e.g. Fuchsia & Black" required />
+          </div>
+        </div>
+
+        <div class="form-group full">
+          <label>Embroidery Name / Text <span class="optional">(optional)</span></label>
+          <input type="text" id="fembroidery" placeholder="e.g. BOSS-LADY or your name" />
+        </div>
+
+        <div class="form-group full">
+          <label>Quantity & Any Other Details</label>
+          <textarea id="fnotes" rows="3" placeholder="e.g. 2 bonnets, one for me and one for my daughter. Delivery to Alex Ext 7."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-full">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Send Order via WhatsApp
+        </button>
+      </form>
+
+      <div class="order-contact">
+        <h3>Or Contact Us Directly</h3>
+        <a href="https://wa.me/27610423655" target="_blank" class="contact-btn wa">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp: +27 61 042 3655
+        </a>
+        <a href="tel:+27670793639" class="contact-btn call">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.6 1.21h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.09 6.09l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call: +27 67 079 3639
+        </a>
+        <div class="contact-btn location">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Alexandra Ext 7, Johannesburg
+        </div>
+        <div class="contact-btn hours">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Open 24 Hours · 7 Days a Week
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="gold-line"></div>
+    <div class="footer-inner">
+      <a href="#" class="logo">Lee's <em>Designs</em></a>
+      <p class="footer-tagline">✦ Sleep Pretty · Wake Flawless ✦</p>
+      <p class="footer-info">Alexandra Ext 7, Johannesburg · Open 24/7 · +27 61 042 3655</p>
+      <p class="footer-copy">© 2025 Lee's Designs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
